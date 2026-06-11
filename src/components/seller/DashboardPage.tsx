@@ -90,7 +90,9 @@ export const DashboardPage: React.FC = () => {
           {weeklyData.map((v, i) => (
             <div className="bar-col" key={i}>
               <div className="bar-val">{v}jt</div>
-              <div className="bar-in" style={{ height: `${(v / maxVal) * 100}%` }}></div>
+              <div className="bar-in-wrapper">
+                <div className="bar-in" style={{ height: `${(v / maxVal) * 100}%` }}></div>
+              </div>
               <div className="bar-lbl">{days[i]}</div>
             </div>
           ))}
