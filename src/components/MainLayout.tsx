@@ -51,7 +51,6 @@ export const MainLayout: React.FC = () => {
   const buyerNavItems: NavItem[] = [
     { page: 'katalog', icon: 'ic-store', label: 'Katalog Produk' },
     { page: 'keranjang', icon: 'ic-cart', label: 'Keranjang', badge: totalCartQty },
-    { page: 'checkout', icon: 'ic-credit', label: 'Checkout' },
     { page: 'riwayat', icon: 'ic-list', label: 'Riwayat Order' },
   ];
 
