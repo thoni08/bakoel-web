@@ -127,7 +127,6 @@ export const CheckoutPage: React.FC = () => {
                 <option value="">Pilih kurir...</option>
                 <option value="JNE REG (2-3 hari)">JNE REG (2-3 hari)</option>
                 <option value="J&T Express (1-2 hari)">J&T Express (1-2 hari)</option>
-                <option value="SiCepat Halu (2-4 hari)">SiCepat Halu (2-4 hari)</option>
               </select>
             </div>
           </div>
@@ -159,17 +158,6 @@ export const CheckoutPage: React.FC = () => {
                 <div>
                   <div className="pay-label">Midtrans (Virtual Account / Qris)</div>
                   <div className="pay-desc">Konfirmasi pembayaran otomatis instan</div>
-                </div>
-              </div>
-
-              <div
-                className={`pay-card ${paymentMethod === 'Xendit' ? 'selected' : ''}`}
-                onClick={() => handleSelectPayment('Xendit')}
-              >
-                <div className="pay-icon pi-xen">XEN</div>
-                <div>
-                  <div className="pay-label">Xendit (E-Wallet &amp; Card)</div>
-                  <div className="pay-desc">Bayar instan via ShopeePay, OVO, Dana</div>
                 </div>
               </div>
             </div>

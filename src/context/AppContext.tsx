@@ -91,7 +91,7 @@ export const AppProvider: React.FC<{ children: React.ReactNode }> = ({ children 
 
   const [couriers, setCouriers] = useState<CourierSettings>(() => {
     const local = localStorage.getItem('bakoel_couriers');
-    return local ? JSON.parse(local) : { jne: true, jnt: true, sc: false };
+    return local ? JSON.parse(local) : { jne: true, jnt: true };
   });
 
   const [toasts, setToasts] = useState<ToastMessage[]>([]);

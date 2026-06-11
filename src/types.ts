@@ -33,5 +33,4 @@ export interface CartItem {
 export interface CourierSettings {
   jne: boolean;
   jnt: boolean;
-  sc: boolean;
 }

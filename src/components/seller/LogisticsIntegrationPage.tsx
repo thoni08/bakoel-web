@@ -32,7 +32,6 @@ export const LogisticsIntegrationPage: React.FC = () => {
   const courierList = [
     { key: 'jne' as const, name: 'JNE Express', status: 'Terkoneksi via API v2', cls: 'cl-jne', lbl: 'JNE' },
     { key: 'jnt' as const, name: 'J&T Express', status: 'Terkoneksi via API v3', cls: 'cl-jnt', lbl: 'J&T' },
-    { key: 'sc' as const, name: 'SiCepat', status: 'Siap untuk diaktifkan', cls: 'cl-sc', lbl: 'SCT' },
   ];
 
   return (
@@ -80,7 +79,6 @@ export const LogisticsIntegrationPage: React.FC = () => {
             >
               <option value="JNE">JNE Express</option>
               <option value="J&amp;T">J&amp;T Express</option>
-              <option value="SiCepat">SiCepat</option>
             </select>
             <input
               type="text"

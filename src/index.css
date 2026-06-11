@@ -1037,10 +1037,6 @@ h3 {
   background: oklch(52% 0.19 232);
 }
 
-.pi-xen {
-  background: oklch(48% 0.2 270);
-}
-
 .pay-label {
   font-weight: 600;
   font-size: 0.86rem;
@@ -1411,10 +1407,6 @@ h3 {
 
 .cl-jnt {
   background: oklch(55% 0.19 18);
-}
-
-.cl-sc {
-  background: oklch(55% 0.18 38);
 }
 
 .c-info {
